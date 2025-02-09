@@ -1,0 +1,6 @@
+services:   
+  php:     
+    image: dollysarmiento2024/calculadora_integracion_docker:v1    
+    container_name: contenedorMiAppCalculadora     
+    ports: 
+      - "8080:80"
